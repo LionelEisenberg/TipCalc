@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func CalculateTip(_ sender: AnyObject) {
-        for i in 0...2 {
+        for i in 0..<3 {
             var s = String(format: "%.0f", tipPercentages[i] * 100)
             s+="%"
             tipControl.setTitle(s, forSegmentAt: i)
