@@ -31,6 +31,10 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+http://i.imgur.com/YhUpWuz.gif
+
+<img src = 'http://i.imgur.com/YhUpWuz.gif' title = 'gif of calc'/>
+
 ## Notes
 
 The main difficulty I was encountering was that changing the default tip percentage. Indeed I did not know how to resolve the conflict between creating an empty nil view controller everytime i went to the settings view and creating a new view every time thus erasing all previous data.
